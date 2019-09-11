@@ -1,10 +1,7 @@
 import React, { Component } from "react";
 import MyPostsList from "./MyPostsList";
+import NewPost from "../home/NewPost";
 import axios from "axios";
-
-import MyInfo from "./MyInfo";
-// import NewPost from "../home/NewPost";
-
 export class MyProfile extends Component {
   state = {
     myInfo: {},
