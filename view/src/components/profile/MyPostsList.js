@@ -7,7 +7,11 @@ export class PostsList extends Component {
     return (
       <div>
         {myPosts.map(post => (
+<<<<<<< HEAD
           <MyPostItem key={post._id} post={post} deletePost={deletePost} />
+=======
+          <MyPostItem key={post._id} {...post} deletePost={deletePost} />
+>>>>>>> clean code
         ))}
       </div>
     );
